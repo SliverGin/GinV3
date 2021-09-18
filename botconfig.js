@@ -1,12 +1,12 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
+  Admins: ["771026259399802891", "UserID"], //Admins of the bot
   ExpressServer: true,//If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
+  Token: process.env.Token || "ODY1Nzk0MTc1NjczMDQwODk2.YPJLqQ.ZH4wAVs4Yk0r3OFRz2IvYhnbeLQ", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "865794175673040896", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "eCy9cIjxdDpdbWoELDJRvA52fk9BMMR8", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
   "24/7": false, //If you want the bot to be stay in the vc 24/7
@@ -19,10 +19,10 @@ module.exports = {
   //Lavalink
    Lavalink: {
     id: "Main",
-    host: "(host name or IP)",
-    port: (port),
-    pass: "(password)", 
-    secure: false, // Set this to true if you're self-hosting lavalink on replit.
+    host: "lavalink.cahenenemo.repl.co",
+    port: 443,
+    pass: "passisnemo", 
+    secure: true, // Set this to true if you're self-hosting lavalink on replit.
   },
 
 
