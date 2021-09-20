@@ -1,5 +1,5 @@
 
-if (message.content.startsWith(config.prefix + "avatar")) {
+if (message.content.startsWith(process.env.Prefix + "avatar")) {
       if (!message.mentions.users.size) {
         const avatarAuthor = new Discord.RichEmbed()
       .setColor(0x333333)
