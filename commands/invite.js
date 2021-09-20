@@ -24,7 +24,7 @@ module.exports = {
       )
       .setColor("BLUE")
       .setDescription(
-        `You can invite me by clicking [here](https://discord.com/oauth2/authorize?client_id=${
+        `Bạn Có Thể Mời Mình Vào Bằng Link Này [Mời Đi Nè](https://discord.com/oauth2/authorize?client_id=${
           client.botconfig.ClientID
         }&permissions=${
           client.botconfig.Permissions
