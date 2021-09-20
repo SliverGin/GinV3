@@ -82,9 +82,9 @@ module.exports = {
 SlashCommand: {
     options: [
       {
-        name: "command",
+        name: "help",
         description: "Get information on a specific command",
-        value: "command",
+        value: "help.js",
         type: 3,
         required: true
       },
