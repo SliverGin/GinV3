@@ -39,7 +39,7 @@ module.exports = {
   Discord Music Bot Version: v${require("../package.json").version}
   [✨ Support Server](${
     client.botconfig.SupportServer
-  }) | [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot) | By [SudhanPlayz](https://github.com/SudhanPlayz)`);
+  }) | | By [SudhanPlayz Và Mods Lại Bởi Gin ]()`);
     if (!args[0]) message.channel.send(Embed);
     else {
       let cmd =
@@ -86,7 +86,7 @@ SlashCommand: {
         description: "Get information on a specific command",
         value: "command",
         type: 3,
-        required: false
+        required: true
       },
     ],
     /**
