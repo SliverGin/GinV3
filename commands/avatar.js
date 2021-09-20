@@ -7,7 +7,7 @@ if (message.content.startsWith(config.prefix + "avatar")) {
       .setImage(message.author.avatarURL)
         message.channel.send(avatarAuthor);
         let mention = message.mentions.members.first();
-        const avatarMention = new Discord.RichEmbed()
+        const avatarMention = new discord.RichEmbed()
         .setColor(0x333333)
         .setAuthor(mention.user.username)
         .setImage(mention.user.avatarURL)
